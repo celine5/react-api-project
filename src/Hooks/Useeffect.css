@@ -1,0 +1,40 @@
+.container{
+    width: 100px;
+    height:150px;
+    background-color: red;
+    border-radius: 5%;
+    animation-name: container;
+    animation-duration: 4s;
+    padding: 20px;
+    position:relative;
+    transform:  translate(12px, 5%);
+}
+#parent
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+    @keyframes container{
+        10%{
+            background: blue;
+            color: white;
+            left: 0;
+        }
+        40%{
+            background: black;
+            color: white;
+            top: 50px;
+
+        }
+        60%{
+            background: purple;
+            color: white; 
+           
+        }
+        100%{
+            background: blue;
+            color: white;
+        }
+
+    
+} 
